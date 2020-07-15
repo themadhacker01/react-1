@@ -15,6 +15,12 @@
 (Babel home)
 [https://babeljs.io/]
 
+(Create react app github)
+[https://github.com/facebook/create-react-app]
+
+(Resolve `npm ERR! code ELIFECYCLE`)
+[https://stackoverflow.com/questions/42308879/npm-err-code-elifecycle#]
+
 
 ## Next steps
 
@@ -23,3 +29,15 @@
 
 (react-4)
 [https://reactjs.org/tutorial/tutorial.html]
+
+
+## DEBUGGING
+
+If you get an `ENOSPC` error :
+```
+create-react-app my-app
+cd my-app
+npm install react-scripts@2.1.8
+npm start
+```
+
